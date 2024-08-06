@@ -11,6 +11,8 @@ PDF builder for hello-algo。
 当然，本版本也有一些不足之外，表现在：
 
 - 表格标题的处理，由于原文使用了一种特殊的处理方式，暂无法做到自动标号和关联。
+- 上图、下图等没有处理成“图1-1”等交叉引用格式，不知《Hello》原版使用了什么魔法。
+- 封面及有些插图未翻译（未找到源文件）。
 - 其他（欢迎提 issue）。
 
 《Hello》原文一字未改，只是写了几个 Lua Filter 配合 Pandoc 和 Latex（XeLatex）编译成 PDF。后面我会把处理过程和源代码公布出来，供大家参考。
@@ -21,7 +23,7 @@ PDF 下载：
 
 - 简体中文版
 - 繁体中文版
-- 英文版
+- 英文版（English）：Since some C code is missing, I replaced with some C++ code, will fix later.
 
 详见： <https://github.com/seven1240/hello-algo-pdf/releases> 。
 
