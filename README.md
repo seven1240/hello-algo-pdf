@@ -15,7 +15,17 @@ PDF builder for hello-algo。
 - 封面及有些插图未翻译（未找到源文件）。
 - 其他（欢迎提 issue）。
 
-《Hello》原文一字未改，只是写了几个 Lua Filter 配合 Pandoc 和 Latex（XeLatex）编译成 PDF。后面我会把处理过程和源代码公布出来，供大家参考。
+《Hello》原文一字未改，只是写了几个 Lua Filter 配合 Pandoc 和 Latex（XeLatex）编译成 PDF。
+
+PDF 的编译代码暂时放到了 https://github.com/seven1240/hello-algo/tree/pandoc
+
+使用方法：
+
+```bash
+cd pandoc && make # 中文版
+cd en/pandoc && make # 英文版
+cd zh-hant/pandoc && make # 繁体中文版
+```
 
 ---
 
